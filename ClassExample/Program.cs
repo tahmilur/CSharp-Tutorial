@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+using System;
 using System.Linq;
 using System.Text;
 
@@ -8,7 +7,6 @@ using System.Text;
 
 namespace ClassExample
 {
-    
     /// <summary>
     /// Class definition. 
     /// </summary>

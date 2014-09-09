@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{81C28892-E5E9-4887-A8FA-3305B4878564}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassExample", "ClassExample\ClassExample.csproj", "{728B9D6A-B9B6-4EC6-A1D4-CFE62C5E4F75}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81C28892-E5E9-4887-A8FA-3305B4878564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81C28892-E5E9-4887-A8FA-3305B4878564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81C28892-E5E9-4887-A8FA-3305B4878564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81C28892-E5E9-4887-A8FA-3305B4878564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{728B9D6A-B9B6-4EC6-A1D4-CFE62C5E4F75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{728B9D6A-B9B6-4EC6-A1D4-CFE62C5E4F75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{728B9D6A-B9B6-4EC6-A1D4-CFE62C5E4F75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{728B9D6A-B9B6-4EC6-A1D4-CFE62C5E4F75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

@@ -26,8 +26,10 @@ namespace DelegateExample
             // Instantiate class
             var sm = new SimpleMath();
 
-            // Assign methods to delegate
-            DelMath add = sm.Add;
+            // Create an instance of the delegate.
+            // 1st way 
+            DelMath add = new DelMath(sm.Add);
+            // 2nd way
             DelMath subtract = sm.Subtract;
             DelMath multiply = sm.Multiply;
             DelMath divide = sm.Divide;

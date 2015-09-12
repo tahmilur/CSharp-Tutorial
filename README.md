@@ -4,7 +4,7 @@ This is a C# tutorial for beginner. This project contains a series of examples f
 
 This project contains the following examples.
 
-*Class
-*switch-case
-*Threading
-*Networking
+* Class
+* switch-case
+* Threading
+* Networking
